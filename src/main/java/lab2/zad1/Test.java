@@ -51,6 +51,8 @@ class Test {
                 return Graph3.getGraph();
             case 4 :
                 return Graph4.getGraph();
+            case 5 :
+                return MYG.getGraph();
             default:
                 System.err.println("WRONG GRAPH TYPE!");
                 return null;
